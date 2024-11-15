@@ -1,0 +1,349 @@
+.header {
+    background-color: black;
+    height: 100px;
+}
+
+.body {
+    background-color: rgb(229, 229, 229);
+}
+
+.logo {
+    margin-top: 15px;
+    margin-left: 50px;
+    width: 17%;
+}
+
+.subtitles {
+    display: flex;
+    justify-content: baseline;
+    color: white;
+    margin-top: -40px;
+    margin-left: 60%;
+}
+
+.btn {
+    background-color: #D99228;
+    margin-top: -75px;
+    margin-left: 86%;
+    height: 60px;
+    width: 10%;
+    border-radius: 8px;
+}
+
+.met {
+    color: white;
+    margin-top: -39.6px;
+    margin-left: 73%;
+}
+
+.met a {
+    color: white; 
+    text-decoration: none;  
+}
+
+.text-body {
+    color: rgb(0, 0, 0);
+    margin-top: -50%;
+    margin-left: 40px;
+    font-size: 10px;
+}
+
+.back-body-first {
+    background-image: url(./img/back-body-first.png);
+    height: 80vh;
+    width: 100%;
+
+}
+
+.padlock {
+    position: absolute;
+    right: 0;
+    top: 8%;
+}
+
+.back-image-one {
+    background-image: url(./img/img-traine.png);
+    background-position: center;
+    background-size: cover;
+    height: 45.7vh;
+    margin-top: 25%;
+}
+
+.text-back-one {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 105%;
+    right: 22%;
+    text-align: center;
+}
+
+ul {
+    position: absolute;
+    right: 54%;
+    font-size: 18px;
+    top: 145%;
+}
+
+.comp {
+    position: absolute;
+    right: 10%;
+    top: 140%;
+    width: 25%;
+}
+
+.container {
+    position: absolute;
+    top: 131%;
+    right: 0%;
+    height: 15%;
+    width: 100%;
+    padding-left: 100%;
+    background-color: black;
+    color: white;
+}
+
+.descu {
+    position: absolute;
+    left: 18%;
+    top: 30%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.back-body-tree {
+    background-image: url(./img/back-body-four.png);
+    background-position: center;
+    background-size: cover;
+    height: 70.7vh;
+    margin-top: 7%;
+}
+
+.descobrir {
+    position: absolute;
+    right: 42%;
+    top: 258%;
+    border-radius: 9px;
+    border: 10px;
+    width: 15%;
+    height: 5%;
+    background-color: #D99228;
+}
+
+.about-us {
+    background-image: url(./img/about-us.png);
+    background-position: center;
+    background-size: cover;
+    height: 20vh;
+    width: 70%;
+    margin-top: 1%;
+    margin-left: 150px;
+}
+
+.container-card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+.card {
+    height: 350px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(233, 233, 233);
+}
+
+.poligono {
+    position: absolute;
+    top: 137%;
+    right: 6%;
+    width: 13%;
+    height: 40vh;
+}
+
+.back-body-five {
+    margin-top: -40px;
+    background-image: url(./img/back-body-tree.png);
+    height: 90.7vh;
+}
+
+.container-linha {
+    background-color: white;
+    margin-top: -593px;
+    margin-left: 90px;
+    width: 85%;
+    height: 2px;
+}
+
+.integrante1 {
+    width: 17%;
+    margin-left: 140px;
+    margin-top: 40px;
+}
+
+.cards {
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.container-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.btn,
+button {
+    transition: background-color 0.3s, color 0.3s, transform 0.5s;
+}
+
+.btn:hover,
+button:hover {
+    background-color: #D99228;
+    color: white;
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: black;
+}
+
+a{
+ text-decoration: none;
+}
+
+.espc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-cards{
+    background-color: #D99228;
+    height: 50px;
+    width: 60%;
+    border: 18px;
+    border-radius: 10px;
+}
+
+.topicos{
+  color: white;
+}
+
+.carousel-container {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    top: 40%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    color: #fff;
+  }
+
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+
+  .carousel-slide {
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-around;
+  }
+
+  .carousel-image img {
+    width: 40px;
+    border-radius: 10px;
+  }
+
+  .carousel-content {
+    max-width: 450px;
+    text-align: left;
+  }
+
+  .carousel-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .carousel-position {
+    font-size: 16px;
+    color: #ff9900;
+  }
+
+  .carousel-text {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* Estilos para as setas */
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    cursor: pointer;
+    padding: 11px;
+    border-radius: 50%;
+  }
+
+  .arrow-left {
+    margin-top: 70px;
+  }
+
+  .arrow-right {
+    right: 10px;
+    margin-top: 70px;
+  }
+
+.nck{
+    zoom: 3;
+}
+
+.pereira{
+    zoom: 3;
+}
+
+.abel{
+    zoom: 3;
+}
+
+.thomas{
+    zoom: 3;
+}
+
+.first-footer{
+    background-color: #4D4D4D;
+    height: 200px;
+    color: rgba(255, 255, 255, 0.788);
+    font-size: 14px;
+}
+
+footer{
+    background-color: black;
+    height: 75px;
+    color: white;
+    text-align: center;
+}
+
+#treinamentos {
+    cursor: pointer; /* Torna o texto clicável */
+}
+
+
+.back-img-ngc{
+    background-image: url(https://i.ibb.co/gRDC8w6/back-img-ngc.png);
+    background-position: center;
+    
+}
+
+
+

@@ -1,0 +1,55 @@
+header{
+    background-color: black;
+    height: 100px;
+    width: 1280px;
+    margin-left: -8px;
+    margin-top: -10px;
+}
+
+.helper{
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 18%;
+}
+
+.title-bot{
+    display: flex;
+    color: white;
+    margin-top: -75px;
+    margin-left: 900px;
+}
+
+.send{
+    position: absolute;
+    width: 2%;
+    margin-left: -57px;
+    top: 66.7%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn,
+button {
+    transition: background-color 0.3s, color 0.3s, transform 0.5s;
+}
+
+.btn:hover,
+button:hover {
+    background-color: #D99228;
+    color: white;
+    transform: scale(1.1);
+}
+
+.send-btn{
+    background-color: #D99228;
+    border: 10px;
+    border-radius: 10px;
+    width: 60px;
+    height: 40px;
+    margin-left: 50%;
+    margin-top: 10px;
+    cursor: pointer;
+}

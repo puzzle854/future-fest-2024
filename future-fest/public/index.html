@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Especialista AI</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="Home.html"><img src="./img/logo.png" alt="logo" class="logo"></a>
+        <div class="subtitles">
+            <a href="#container-cards" id="treinamentos" onclick="scrollToCards()" style="color: white;">Treinamentos
+                ↓</a>
+        </div>
+        <p class="met" style="margin-top: -23px;">Metodologia ↓</p>
+        <a href="./ai.html"> <button class="btn">Fale com um <br>especialista</button></a>
+    </header>
+
+    <h2 style="text-align: center; font-weight: 900;">Bem vindo ao FlowHelper</h2>
+    <h2 style="text-align: center; margin-top: 350px;">Em que posso ajudar?</h2>
+
+    <div id="chat-box" style="height: 300px; overflow-y: scroll; margin: 20px; border: 1px solid #ccc; padding: 10px;">
+    </div>
+
+    <input id="user-input" type="text" placeholder="Mensagem FlowHelper"
+        style="width: 90%; height: 40px; border-radius: 20px; margin-left: 55px; background-color: rgb(224, 224, 224);">
+    <button id="send-btn" class="send-btn">Enviar</button>
+
+    <script src="./js/chat.js"></script>
+</body>
+
+</html>
